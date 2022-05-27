@@ -1,0 +1,47 @@
+.preto{
+    width: 100px;
+    height:100px;
+    background-color: black;
+}
+
+.branco{
+    width: 100px;
+    height:100px;
+    background-color: rgb(255, 255, 255);
+}
+
+#cavalo{
+    width:90px;
+    height:90px;
+    position: relative;
+    animation: mov-cavalo 7s infinite;
+}
+@keyframes mov-cavalo{
+    0%  {top: 0px; left: 0px;}
+    5% {top: 200px;left: 0px;}
+    10% {top: 200px;left: 100px;}
+    15% {top: 200px; left: 100px}
+
+    20% {top: 200px; left: 330px}
+    25% {top: 200px; left: 330px}
+    30% {top: 320px; left: 330px}
+     
+    35% {top: 320px; left: 550px}
+    40% {top: 420px; left: 550px}
+    45% {top: 650px; left: 550px}
+
+    50% {top: 650px; left: 780px}
+    55% {top: 420px; left: 780px}
+    60% {top: 420px; left: 660px}
+
+    65% {top: 420px; left: 450px}
+    70% {top: 320px; left: 450px}
+    75% {top: 320px; left: 230px}
+ 
+    80% {top: 200px; left: 230px}
+    85% {top: 200px; left: 0px}
+    90% {top: 0px; left: 0px}
+  
+
+
+}
